@@ -1,0 +1,21 @@
+body {
+  background-color: #000;    
+  margin: 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.heart-container {
+  position: relative; /* Container for positioning */
+}
+
+.heart-text {
+  z-index: 3000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text */
+  color: #fff; /* Adjust color as needed */
+  text-shadow: 0 0 5px #00f, 0 0 10px #00f; /* Optional neon glow */
+  font-size: 2em;
+}
